@@ -7,7 +7,7 @@ body{
 .highlight{color: 00ff00;
 font-weight: bolder;}
 #introcontainer{width: 600px;float: left;}
-#intropic{float: left;}
+#intropic{float: right;}
 .reset{clear: both;}
-#hobycontainer{width: 25opx; float: left;}
+#hobycontainer{width: 25opx; float: right;}
 #serch{float: left;}
