@@ -8,3 +8,6 @@ body{
 font-weight: bolder;}
 #introcontainer{width: 600px;float: left;}
 #intropic{float: left;}
+.reset{clear: both;}
+#hobycontainer{width: 25opx; float: left;}
+#serch{float: left;}
