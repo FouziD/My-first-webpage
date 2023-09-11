@@ -3,5 +3,4 @@ body{
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
-param{color: brown;}
-param{color: aquamarine;}
+#introtext{color: aquamarine;}
