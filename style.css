@@ -6,4 +6,5 @@ body{
 #introtext{color: rgb(249, 37, 13);}
 .highlight{color: 00ff00;
 font-weight: bolder;}
-#introcontainer{width: 470px;}
+#introcontainer{width: 600px;float: left;}
+#intropic{float: left;}
