@@ -3,4 +3,6 @@ body{
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
-#introtext{color: aquamarine;}
+#introtext{color: rgb(249, 37, 13);}
+.highlight{color: 00ff00;
+font-weight: bolder;}
