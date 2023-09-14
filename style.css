@@ -1,26 +1,23 @@
 body{
     background-color: rgb(176, 227, 224);
-    margin: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 0px auto;
     font-family: Arial, Helvetica, sans-serif;
 }
-#introtext{color: rgb(249, 37, 13);}
+#introtext{color: rgb(249, 37, 13); margin: 17px 0px 0px 0px;
+}
 
 .highlight{color: blue;
 font-weight: bolder;}
 
-#introcontainer{width: 600px;float: left;}
+#introcontainer{width: 600px;float: left; margin: 0px 0px 0px 57px;}
 
 #intropic{float: left;}
 
 .reset{clear: both;}
 
-#hobycontainer{width: 25opx; float: left;}
+#hobycontainer{width: 25opx; float: left; margin: 156px 0px 0px 0px;}
 
-#serch{float: right;}
+#serch{float: right; margin: 28px 230px 0px 22px;}
 
 #Body1{width: 850px;
-margin: 0px auto;}
+margin: 100px auto;}
