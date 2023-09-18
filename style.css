@@ -2,6 +2,10 @@ body{
     background-color: rgb(176, 227, 224);
     margin: 0px auto;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url('IMG/download.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 #introtext{color: rgb(249, 37, 13); margin: 17px 0px 0px 0px;
 }
@@ -17,7 +21,25 @@ font-weight: bolder;}
 
 #hobycontainer{width: 25opx; float: left; margin: 156px 0px 0px 0px;}
 
-#serch{float: right; margin: 28px 230px 0px 22px;}
+#serch{float: right; margin: 28px 230px 0px 22px; background-color:  rgb(176, 227, 224);}
 
 #Body1{width: 850px;
-margin: 100px auto;}
+margin: 10px auto;
+padding: 20px 0px 0px 0px;
+}
+
+#mainContainer {
+    
+    margin: 0px auto;
+    padding: 20px 0px 0px 0px;
+
+}
+
+#linktest { height: 30px;}
+#linktest a{ padding: 10px; 
+background-color: blanchedalmond;
+color: rgb(20, 197, 138);
+text-decoration: none;
+border-radius: 4px;}
+
+#linktest a:hover {background-color: azure;}
