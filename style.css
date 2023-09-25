@@ -13,7 +13,7 @@ body{
 .highlight{color: blue;
 font-weight: bolder;}
 
-#introcontainer{width: 600px;float: left; margin: 0px 0px 0px 57px;}
+#introcontainer{width: 600px;float: left; margin: 0px 0px 0px 57pxs;}
 
 #intropic{float: left;}
 
@@ -92,15 +92,6 @@ border-radius: 4px;}
     }
   }
 
-  .socialTumb {
-    float: left;
-    width: 10px;
-    height: 10px;
-    background-color: #FFFFFF;
-    text-align: center;
-    margin: 0px 30px 20px 18px;
-}
-
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
   position: fixed;
@@ -142,5 +133,35 @@ border-radius: 4px;}
 
 .youtube {
   background: #f80000;
+  color: white;
+}
+/* Place the navbar at the bottom of the page, and make it stick */
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: #04AA6D;
   color: white;
 }
